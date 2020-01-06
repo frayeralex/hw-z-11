@@ -1,0 +1,20 @@
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-item .edit-input,
+.todo-item .submit-btn {
+    display: none;
+}
+
+.todo-item.edit-mode .edit-input,
+.todo-item.edit-mode .submit-btn {
+    display: inline-block;
+}
+
+.todo-item.edit-mode .remove-btn,
+.todo-item.edit-mode .edit-btn,
+.todo-item.edit-mode .item-content {
+    display: none;
+}
