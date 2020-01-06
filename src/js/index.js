@@ -7,6 +7,10 @@ form.addEventListener('submit', handleFormSubmit);
 function handleFormSubmit(event) {
     event.preventDefault();
 
+    if (input.value.trim().length < 2) {
+        return;
+    }
+
     console.log(input);
     console.dir(input);
 
